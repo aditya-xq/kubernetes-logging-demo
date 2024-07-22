@@ -125,3 +125,5 @@ A script to simulate various request scenarios using curl:
    ```
 
 2. The script will continuously send various requests to the application, simulating different scenarios.
+
+For complete details on how to explore kubectl commands with this demo project, please read this blog post: [Kubectl Logs Tail: A Guide to Tailing Kubernetes Logs](https://middleware.io/blog/kubectl-logs-tail/).
