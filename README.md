@@ -76,7 +76,7 @@ A script to simulate various request scenarios using curl:
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/kubernetes-logging-demo.git
+   git clone https://github.com/aditya-xq/kubernetes-logging-demo.git
    cd kubernetes-logging-demo
    ```
 
