@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: logging-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: logging-demo
+  template:
+    metadata:
+      labels:
+        app: logging-demo
+    spec:
+      containers:
+      - name: logging-demo
+        image: kubernetes-logging-demo:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 3000
